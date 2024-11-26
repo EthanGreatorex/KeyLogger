@@ -3,6 +3,6 @@ This is a simple key logger that registers a user's key presses and provides a s
 summary at the end showcasing any potential passwords that have been flagged.
 ## Modules used
 - pynput
-- loggerAnalyse
+- loggerAnalyse (custom package)
 ## Youtube Demo
 https://youtu.be/pw8k3dNpVB0
